@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "DDChainFlex"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "常用UI控件的链式调用"
 
   s.description  = <<-DESC
@@ -14,14 +14,14 @@ Pod::Spec.new do |s|
 
   s.author             = { "afei" => "2511433510@qq.com" }
 
-  s.platform     = :ios, "8.0"
-
-  s.source       = { :git => "https://github.com/chenyongfei/DDChainFlexDemo.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/chenyongfei/DDChainFlexDemo.git", :tag => "0.0.2" }
 
 
   s.source_files  = "DDChainFlex/*.{h,m}"
   s.public_header_files = "DDChainFlex/DDChainFlex.h"
 
+  s.frameworks ='UIKit'
+  s.platform     = :ios, '7.0' 
   s.requires_arc = true
 
 end

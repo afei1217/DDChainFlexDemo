@@ -9,7 +9,6 @@
 #ifndef DDChainFlex_h
 #define DDChainFlex_h
 
-#import "UIView+Frame.h"
 #import "DDViewChainModel.h"
 #import "DDButtonChainModel.h"
 #import "DDLabelChainModel.h"
