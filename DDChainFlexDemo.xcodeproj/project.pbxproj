@@ -92,8 +92,6 @@
 		75D7D70820EB5B5500BF8268 /* DDChainFlexDemo */ = {
 			isa = PBXGroup;
 			children = (
-				75D7D74620EB63AA00BF8268 /* UIView+Frame.h */,
-				75D7D74520EB63A900BF8268 /* UIView+Frame.m */,
 				75D7D70920EB5B5500BF8268 /* AppDelegate.h */,
 				75D7D70A20EB5B5500BF8268 /* AppDelegate.m */,
 				75D7D70C20EB5B5500BF8268 /* ViewController.h */,
@@ -117,6 +115,8 @@
 			isa = PBXGroup;
 			children = (
 				75D7D72520EB629500BF8268 /* DDChainFlex.h */,
+				75D7D74620EB63AA00BF8268 /* UIView+Frame.h */,
+				75D7D74520EB63A900BF8268 /* UIView+Frame.m */,
 				75D7D72920EB629500BF8268 /* DDBaseViewChainModel.h */,
 				75D7D73720EB629500BF8268 /* DDBaseViewChainModel.m */,
 				75D7D73220EB629500BF8268 /* DDViewChainModel.h */,
