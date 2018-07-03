@@ -1,0 +1,34 @@
+//
+//  DDScrollViewChainModel.m
+//  DDChainFlex
+//
+//  Created by Void on 2018/7/3.
+//  Copyright © 2018年 afei. All rights reserved.
+//
+
+#import "DDScrollViewChainModel.h"
+
+#define     DDFLEX_CHAIN_SCROLLVIEW_IMPLEMENTATION(methodName, DDParamType)      DDFLEX_CHAIN_IMPLEMENTATION(methodName, DDParamType, DDScrollViewChainModel *, UIScrollView)
+@implementation DDScrollViewChainModel
+
+DDFLEX_CHAIN_SCROLLVIEW_IMPLEMENTATION(delegate, id<UIScrollViewDelegate>);
+
+DDFLEX_CHAIN_SCROLLVIEW_IMPLEMENTATION(contentSize, CGSize);
+DDFLEX_CHAIN_SCROLLVIEW_IMPLEMENTATION(contentOffset, CGPoint);
+DDFLEX_CHAIN_SCROLLVIEW_IMPLEMENTATION(contentInset, UIEdgeInsets);
+
+DDFLEX_CHAIN_SCROLLVIEW_IMPLEMENTATION(bounces, BOOL);
+DDFLEX_CHAIN_SCROLLVIEW_IMPLEMENTATION(alwaysBounceVertical, BOOL);
+DDFLEX_CHAIN_SCROLLVIEW_IMPLEMENTATION(alwaysBounceHorizontal, BOOL);
+
+DDFLEX_CHAIN_SCROLLVIEW_IMPLEMENTATION(pagingEnabled, BOOL);
+DDFLEX_CHAIN_SCROLLVIEW_IMPLEMENTATION(scrollEnabled, BOOL);
+
+DDFLEX_CHAIN_SCROLLVIEW_IMPLEMENTATION(showsHorizontalScrollIndicator, BOOL);
+DDFLEX_CHAIN_SCROLLVIEW_IMPLEMENTATION(showsVerticalScrollIndicator, BOOL);
+
+DDFLEX_CHAIN_SCROLLVIEW_IMPLEMENTATION(scrollsToTop, BOOL);
+
+@end
+
+DDFLEX_EX_IMPLEMENTATION(UIScrollView, DDScrollViewChainModel)

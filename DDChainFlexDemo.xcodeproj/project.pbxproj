@@ -11,6 +11,17 @@
 		75D7D70E20EB5B5500BF8268 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D7D70D20EB5B5500BF8268 /* ViewController.m */; };
 		75D7D71920EB5B5800BF8268 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D7D71820EB5B5800BF8268 /* main.m */; };
 		75D7D72120EB5C0F00BF8268 /* Launch.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75D7D72020EB5C0F00BF8268 /* Launch.xcassets */; };
+		75D7D73A20EB629500BF8268 /* DDButtonChainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D7D72720EB629500BF8268 /* DDButtonChainModel.m */; };
+		75D7D73B20EB629500BF8268 /* DDViewChainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D7D72820EB629500BF8268 /* DDViewChainModel.m */; };
+		75D7D73C20EB629500BF8268 /* DDLabelChainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D7D72A20EB629500BF8268 /* DDLabelChainModel.m */; };
+		75D7D73D20EB629500BF8268 /* DDSwitchChainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D7D72C20EB629500BF8268 /* DDSwitchChainModel.m */; };
+		75D7D73E20EB629500BF8268 /* DDImageViewChainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D7D72D20EB629500BF8268 /* DDImageViewChainModel.m */; };
+		75D7D73F20EB629500BF8268 /* DDTextViewChainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D7D72F20EB629500BF8268 /* DDTextViewChainModel.m */; };
+		75D7D74020EB629500BF8268 /* DDCollectionViewChainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D7D73020EB629500BF8268 /* DDCollectionViewChainModel.m */; };
+		75D7D74120EB629500BF8268 /* DDTableViewChainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D7D73120EB629500BF8268 /* DDTableViewChainModel.m */; };
+		75D7D74220EB629500BF8268 /* DDTextFieldChainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D7D73520EB629500BF8268 /* DDTextFieldChainModel.m */; };
+		75D7D74320EB629500BF8268 /* DDBaseViewChainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D7D73720EB629500BF8268 /* DDBaseViewChainModel.m */; };
+		75D7D74420EB629500BF8268 /* DDScrollViewChainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D7D73920EB629500BF8268 /* DDScrollViewChainModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +33,29 @@
 		75D7D71720EB5B5800BF8268 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75D7D71820EB5B5800BF8268 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		75D7D72020EB5C0F00BF8268 /* Launch.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Launch.xcassets; sourceTree = "<group>"; };
+		75D7D72320EB629500BF8268 /* DDTableViewChainModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTableViewChainModel.h; sourceTree = "<group>"; };
+		75D7D72420EB629500BF8268 /* DDCollectionViewChainModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDCollectionViewChainModel.h; sourceTree = "<group>"; };
+		75D7D72520EB629500BF8268 /* DDChainFlex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDChainFlex.h; sourceTree = "<group>"; };
+		75D7D72620EB629500BF8268 /* DDTextViewChainModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTextViewChainModel.h; sourceTree = "<group>"; };
+		75D7D72720EB629500BF8268 /* DDButtonChainModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDButtonChainModel.m; sourceTree = "<group>"; };
+		75D7D72820EB629500BF8268 /* DDViewChainModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDViewChainModel.m; sourceTree = "<group>"; };
+		75D7D72920EB629500BF8268 /* DDBaseViewChainModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDBaseViewChainModel.h; sourceTree = "<group>"; };
+		75D7D72A20EB629500BF8268 /* DDLabelChainModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLabelChainModel.m; sourceTree = "<group>"; };
+		75D7D72B20EB629500BF8268 /* DDTextFieldChainModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTextFieldChainModel.h; sourceTree = "<group>"; };
+		75D7D72C20EB629500BF8268 /* DDSwitchChainModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDSwitchChainModel.m; sourceTree = "<group>"; };
+		75D7D72D20EB629500BF8268 /* DDImageViewChainModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDImageViewChainModel.m; sourceTree = "<group>"; };
+		75D7D72E20EB629500BF8268 /* DDScrollViewChainModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDScrollViewChainModel.h; sourceTree = "<group>"; };
+		75D7D72F20EB629500BF8268 /* DDTextViewChainModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTextViewChainModel.m; sourceTree = "<group>"; };
+		75D7D73020EB629500BF8268 /* DDCollectionViewChainModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDCollectionViewChainModel.m; sourceTree = "<group>"; };
+		75D7D73120EB629500BF8268 /* DDTableViewChainModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTableViewChainModel.m; sourceTree = "<group>"; };
+		75D7D73220EB629500BF8268 /* DDViewChainModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDViewChainModel.h; sourceTree = "<group>"; };
+		75D7D73320EB629500BF8268 /* DDButtonChainModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDButtonChainModel.h; sourceTree = "<group>"; };
+		75D7D73420EB629500BF8268 /* DDSwitchChainModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDSwitchChainModel.h; sourceTree = "<group>"; };
+		75D7D73520EB629500BF8268 /* DDTextFieldChainModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTextFieldChainModel.m; sourceTree = "<group>"; };
+		75D7D73620EB629500BF8268 /* DDLabelChainModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLabelChainModel.h; sourceTree = "<group>"; };
+		75D7D73720EB629500BF8268 /* DDBaseViewChainModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDBaseViewChainModel.m; sourceTree = "<group>"; };
+		75D7D73820EB629500BF8268 /* DDImageViewChainModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDImageViewChainModel.h; sourceTree = "<group>"; };
+		75D7D73920EB629500BF8268 /* DDScrollViewChainModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDScrollViewChainModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +72,7 @@
 		75D7D6FD20EB5B5500BF8268 = {
 			isa = PBXGroup;
 			children = (
+				75D7D72220EB629500BF8268 /* DDChainFlex */,
 				75D7D70820EB5B5500BF8268 /* DDChainFlexDemo */,
 				75D7D70720EB5B5500BF8268 /* Products */,
 			);
@@ -71,6 +106,36 @@
 				75D7D71820EB5B5800BF8268 /* main.m */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75D7D72220EB629500BF8268 /* DDChainFlex */ = {
+			isa = PBXGroup;
+			children = (
+				75D7D72520EB629500BF8268 /* DDChainFlex.h */,
+				75D7D72920EB629500BF8268 /* DDBaseViewChainModel.h */,
+				75D7D73720EB629500BF8268 /* DDBaseViewChainModel.m */,
+				75D7D73220EB629500BF8268 /* DDViewChainModel.h */,
+				75D7D72820EB629500BF8268 /* DDViewChainModel.m */,
+				75D7D73320EB629500BF8268 /* DDButtonChainModel.h */,
+				75D7D72720EB629500BF8268 /* DDButtonChainModel.m */,
+				75D7D73620EB629500BF8268 /* DDLabelChainModel.h */,
+				75D7D72A20EB629500BF8268 /* DDLabelChainModel.m */,
+				75D7D73820EB629500BF8268 /* DDImageViewChainModel.h */,
+				75D7D72D20EB629500BF8268 /* DDImageViewChainModel.m */,
+				75D7D73520EB629500BF8268 /* DDTextFieldChainModel.m */,
+				75D7D72B20EB629500BF8268 /* DDTextFieldChainModel.h */,
+				75D7D72620EB629500BF8268 /* DDTextViewChainModel.h */,
+				75D7D72F20EB629500BF8268 /* DDTextViewChainModel.m */,
+				75D7D73420EB629500BF8268 /* DDSwitchChainModel.h */,
+				75D7D72C20EB629500BF8268 /* DDSwitchChainModel.m */,
+				75D7D72E20EB629500BF8268 /* DDScrollViewChainModel.h */,
+				75D7D73920EB629500BF8268 /* DDScrollViewChainModel.m */,
+				75D7D72320EB629500BF8268 /* DDTableViewChainModel.h */,
+				75D7D73120EB629500BF8268 /* DDTableViewChainModel.m */,
+				75D7D72420EB629500BF8268 /* DDCollectionViewChainModel.h */,
+				75D7D73020EB629500BF8268 /* DDCollectionViewChainModel.m */,
+			);
+			path = DDChainFlex;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +206,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75D7D73D20EB629500BF8268 /* DDSwitchChainModel.m in Sources */,
 				75D7D70E20EB5B5500BF8268 /* ViewController.m in Sources */,
+				75D7D73F20EB629500BF8268 /* DDTextViewChainModel.m in Sources */,
+				75D7D74420EB629500BF8268 /* DDScrollViewChainModel.m in Sources */,
+				75D7D74220EB629500BF8268 /* DDTextFieldChainModel.m in Sources */,
 				75D7D71920EB5B5800BF8268 /* main.m in Sources */,
+				75D7D74120EB629500BF8268 /* DDTableViewChainModel.m in Sources */,
+				75D7D74020EB629500BF8268 /* DDCollectionViewChainModel.m in Sources */,
+				75D7D73C20EB629500BF8268 /* DDLabelChainModel.m in Sources */,
+				75D7D73E20EB629500BF8268 /* DDImageViewChainModel.m in Sources */,
 				75D7D70B20EB5B5500BF8268 /* AppDelegate.m in Sources */,
+				75D7D73B20EB629500BF8268 /* DDViewChainModel.m in Sources */,
+				75D7D74320EB629500BF8268 /* DDBaseViewChainModel.m in Sources */,
+				75D7D73A20EB629500BF8268 /* DDButtonChainModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
