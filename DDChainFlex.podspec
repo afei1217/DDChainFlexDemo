@@ -17,8 +17,8 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/chenyongfei/DDChainFlexDemo.git", :tag => "0.0.2" }
 
 
-  s.source_files  = "DDChainFlex/*.{h,m}"
-  s.public_header_files = "DDChainFlex/DDChainFlex.h"
+  s.source_files  = "DDChainFlex/**/*.{h,m}"
+#s.public_header_files = "DDChainFlex/DDChainFlex.h"
 
   s.frameworks ='UIKit'
   s.platform     = :ios, '7.0' 
