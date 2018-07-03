@@ -22,6 +22,7 @@
 		75D7D74220EB629500BF8268 /* DDTextFieldChainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D7D73520EB629500BF8268 /* DDTextFieldChainModel.m */; };
 		75D7D74320EB629500BF8268 /* DDBaseViewChainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D7D73720EB629500BF8268 /* DDBaseViewChainModel.m */; };
 		75D7D74420EB629500BF8268 /* DDScrollViewChainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D7D73920EB629500BF8268 /* DDScrollViewChainModel.m */; };
+		75D7D74720EB63AA00BF8268 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D7D74520EB63A900BF8268 /* UIView+Frame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,8 @@
 		75D7D73720EB629500BF8268 /* DDBaseViewChainModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDBaseViewChainModel.m; sourceTree = "<group>"; };
 		75D7D73820EB629500BF8268 /* DDImageViewChainModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDImageViewChainModel.h; sourceTree = "<group>"; };
 		75D7D73920EB629500BF8268 /* DDScrollViewChainModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDScrollViewChainModel.m; sourceTree = "<group>"; };
+		75D7D74520EB63A900BF8268 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		75D7D74620EB63AA00BF8268 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 		75D7D70820EB5B5500BF8268 /* DDChainFlexDemo */ = {
 			isa = PBXGroup;
 			children = (
+				75D7D74620EB63AA00BF8268 /* UIView+Frame.h */,
+				75D7D74520EB63A900BF8268 /* UIView+Frame.m */,
 				75D7D70920EB5B5500BF8268 /* AppDelegate.h */,
 				75D7D70A20EB5B5500BF8268 /* AppDelegate.m */,
 				75D7D70C20EB5B5500BF8268 /* ViewController.h */,
@@ -209,6 +214,7 @@
 				75D7D73D20EB629500BF8268 /* DDSwitchChainModel.m in Sources */,
 				75D7D70E20EB5B5500BF8268 /* ViewController.m in Sources */,
 				75D7D73F20EB629500BF8268 /* DDTextViewChainModel.m in Sources */,
+				75D7D74720EB63AA00BF8268 /* UIView+Frame.m in Sources */,
 				75D7D74420EB629500BF8268 /* DDScrollViewChainModel.m in Sources */,
 				75D7D74220EB629500BF8268 /* DDTextFieldChainModel.m in Sources */,
 				75D7D71920EB5B5800BF8268 /* main.m in Sources */,
